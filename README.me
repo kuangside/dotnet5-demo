@@ -1,0 +1,12 @@
+== CMD INSTALL PACKAGE == 
+======================================
+dotnet tool install --global dotnet-ef
+dotnet tool install --global dotnet-aspnet-codegenerator --version 5.0.0-*
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.0-*
+dotnet add package Microsoft.EntityFrameworkCore.SQLite --version 5.0.0-*
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.0.0-*
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.0-*
+
+======================================
+[] Change ConfigDatabase in appsettings.json 
+[] dotnet ef database update
